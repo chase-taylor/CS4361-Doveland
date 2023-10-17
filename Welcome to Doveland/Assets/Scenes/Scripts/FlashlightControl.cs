@@ -9,38 +9,39 @@ public class FlashlightControl : MonoBehaviour
     private bool isFlashlightOn = false;
     private Vector3 originalLocalPosition;
 
+    public GameObject flashlightClick; // Assign your GameObject with AudioSource component here
+
     public float MinTime = 1f;
     public float MaxTime = 10f;
     public float Timer;
 
+    // Get the AudioSource component from the flashlightClick GameObject
+    private AudioSource flashlightAudio;
 
     void Start()
     {
         Timer = Random.Range(MinTime, MaxTime);
-        flashlight.enabled = isFlashlightOn; // Ensure the flashlight starts in the correct state
+        flashlight.enabled = false;
         originalLocalPosition = flashlight.transform.localPosition;
+
+        // Get the AudioSource component
+        flashlightAudio = flashlightClick.GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            isFlashlightOn = !isFlashlightOn; // Toggle the flashlight state
-
-            // Toggle the flashlight on or off
+            isFlashlightOn = !isFlashlightOn;
             flashlight.enabled = isFlashlightOn;
+
+            // Play the audio when 'F' key is pressed
+            flashlightAudio.Play();
         }
 
-        // Position the flashlight at the camera's position
         flashlight.transform.position = playerCamera.position;
-
-        // Restore the original local position (to avoid moving it up or down)
         flashlight.transform.localPosition = originalLocalPosition;
-
-        // Rotate the flashlight to match the camera's rotation
         flashlight.transform.rotation = playerCamera.rotation;
-
-       
     }
 
     void FlickerLight()
@@ -52,7 +53,6 @@ public class FlashlightControl : MonoBehaviour
         {
             flashlight.enabled = !flashlight.enabled;
             Timer = Random.Range(MinTime, MaxTime);
-           
         }
     }
 }
