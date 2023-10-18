@@ -180,7 +180,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &25698076
+=======
+--- !u!1001 &52619513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -99.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.053375244
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.047821
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+      propertyPath: m_Name
+      value: StreeLamp - Flickering
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+--- !u!1 &86822701
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,15 +249,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 25698078}
   - component: {fileID: 25698077}
   m_Layer: 0
   m_Name: footsteps- concrete - running
+=======
+  - component: {fileID: 86822703}
+  - component: {fileID: 86822702}
+  m_Layer: 0
+  m_Name: Road Network
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!82 &25698077
 AudioSource:
   m_ObjectHideFlags: 0
@@ -382,6 +451,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!114 &86822702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,11 +1080,19 @@ MonoBehaviour:
   infoTexture: {fileID: 0}
   infoTexture2: {fileID: 0}
   infoTextures: []
+<<<<<<< Updated upstream
   plusSignTexture: {fileID: 516626243}
   minSignTexture: {fileID: 1640457426}
   signPostHeaderBG: {fileID: 736121704}
   signPostListBG: {fileID: 485787498}
   signPostListSelBG: {fileID: 1255584949}
+=======
+  plusSignTexture: {fileID: 1879250292}
+  minSignTexture: {fileID: 199474683}
+  signPostHeaderBG: {fileID: 1360580651}
+  signPostListBG: {fileID: 1056747788}
+  signPostListSelBG: {fileID: 382577361}
+>>>>>>> Stashed changes
   editorSkin: 0
   showAllPrefabs: 1
   standardPrefabsFlag: 0
@@ -1066,7 +1145,11 @@ MonoBehaviour:
   terrainSplatTextures:
   - Splat 1 - layer_Grass ER
   - Splat 2 - Path
+<<<<<<< Updated upstream
   activeTerrain: {fileID: 0}
+=======
+  activeTerrain: {fileID: 1405407618}
+>>>>>>> Stashed changes
   activeTerrainY: 0
   selectedTerrain: 0
   selectedRoadsOnly: 0
@@ -1483,9 +1566,15 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
+<<<<<<< Updated upstream
   m_Color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
   m_Intensity: 0.4
   m_Range: 500
+=======
+  m_Color: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
+  m_Intensity: 0.48
+  m_Range: 499.73663
+>>>>>>> Stashed changes
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1549,12 +1638,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &144100352
 GameObject:
+=======
+--- !u!28 &199474683
+Texture2D:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 144100353}
@@ -1677,6 +1772,50 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 10
+  m_Height: 2
+  m_CompleteImageSize: 112
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 112
+  _typelessdata: ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> Stashed changes
 --- !u!1001 &322480734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1731,15 +1870,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       insertIndex: -1
       addedObject: {fileID: 437050349}
+=======
+    m_AddedGameObjects: []
+>>>>>>> Stashed changes
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8204961345377711610, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1175314837}
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &437050348
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,6 +2240,9 @@ Transform:
   m_Father: {fileID: 1964927191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!28 &485787498
+=======
+--- !u!28 &382577361
+>>>>>>> Stashed changes
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2137,6 +2284,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 20
+<<<<<<< Updated upstream
   _typelessdata: 414141ff414141ff414141ff414141ff414141ff
   m_StreamData:
     serializedVersion: 2
@@ -2186,6 +2334,9 @@ Texture2D:
   m_PlatformBlob: 
   image data: 760
   _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
+=======
+  _typelessdata: 4d4d4dff4d4d4dff4d4d4dff4d4d4dff4d4d4dff
+>>>>>>> Stashed changes
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -2215,6 +2366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 963194228}
   flashlight: {fileID: 580438675}
+<<<<<<< Updated upstream
   flashlightClick: {fileID: 1954894079}
   MinTime: 0
   MaxTime: 0.61
@@ -2395,6 +2547,11 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+=======
+  MinTime: 0
+  MaxTime: 0.61
+  Timer: 0.04
+>>>>>>> Stashed changes
 --- !u!1001 &753082645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2964,7 +3121,11 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0.637, z: -0.276}
+=======
+  m_LocalPosition: {x: 0, y: 0.79, z: -0.276}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3067,6 +3228,57 @@ MonoBehaviour:
   perpDirRotated: {x: -0.0008682251, y: 0, z: -0.99999964}
   markerStartUVY: 0
   customPoints: []
+<<<<<<< Updated upstream
+=======
+--- !u!28 &1056747788
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 414141ff414141ff414141ff414141ff414141ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> Stashed changes
 --- !u!1001 &1119299967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3150,11 +3362,14 @@ MonoBehaviour:
   MinTime: 0.01
   MaxTime: 0.8
   Timer: 0.06
+<<<<<<< Updated upstream
 --- !u!4 &1175314841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5154010266989119465, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
   m_PrefabInstance: {fileID: 322480734}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1182850536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3245,10 +3460,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4777606630871252, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1954894080}
+=======
+    m_AddedGameObjects: []
+>>>>>>> Stashed changes
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1175331865632600, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
       insertIndex: -1
@@ -3264,9 +3483,15 @@ GameObject:
   m_Component:
   - component: {fileID: 1221761784}
   - component: {fileID: 1221761785}
+<<<<<<< Updated upstream
   m_Layer: 6
   m_Name: Road Objects
   m_TagString: Concrete
+=======
+  m_Layer: 0
+  m_Name: Road Objects
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3312,9 +3537,15 @@ GameObject:
   - component: {fileID: 1243967978}
   - component: {fileID: 1243967980}
   - component: {fileID: 1243967979}
+<<<<<<< Updated upstream
   m_Layer: 6
   m_Name: Connection Objects
   m_TagString: Concrete
+=======
+  m_Layer: 0
+  m_Name: Connection Objects
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3358,6 +3589,7 @@ MonoBehaviour:
   m_Script: {fileID: -1994553136, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 --- !u!28 &1255584949
 Texture2D:
   m_ObjectHideFlags: 0
@@ -3406,6 +3638,8 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1279844450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4777606630871252, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
@@ -3507,6 +3741,7 @@ MonoBehaviour:
   perpDirRotated: {x: -0.0009887691, y: 0, z: -0.9999995}
   markerStartUVY: 0.15491867
   customPoints: []
+<<<<<<< Updated upstream
 --- !u!1001 &1287677801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3576,6 +3811,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85abc66ee2c921c4f94d78ff0bae4348, type: 3}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1289003833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3633,6 +3870,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a162d9b3eabf5541aeafc613988e630, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1319888108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3761,6 +3999,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1964927191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1338054738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,9 +4014,15 @@ GameObject:
   - component: {fileID: 1338054742}
   - component: {fileID: 1338054741}
   - component: {fileID: 1338054740}
+<<<<<<< Updated upstream
   m_Layer: 6
   m_Name: road_0001
   m_TagString: Concrete
+=======
+  m_Layer: 0
+  m_Name: road_0001
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3790,7 +4036,11 @@ Transform:
   m_GameObject: {fileID: 1338054738}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 0, y: 0.001, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3807,11 +4057,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
+<<<<<<< Updated upstream
     m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 256
   m_LayerOverridePriority: 1
+=======
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+>>>>>>> Stashed changes
   m_IsTrigger: 0
   m_ProvidesContacts: 1
   m_Enabled: 1
@@ -11864,9 +12122,15 @@ GameObject:
   - component: {fileID: 1353038332}
   - component: {fileID: 1353038331}
   - component: {fileID: 1353038330}
+<<<<<<< Updated upstream
   m_Layer: 6
   m_Name: sidewalk
   m_TagString: Concrete
+=======
+  m_Layer: 0
+  m_Name: sidewalk
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19983,11 +20247,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
+<<<<<<< Updated upstream
     m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 256
   m_LayerOverridePriority: 1
+=======
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+>>>>>>> Stashed changes
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -20060,6 +20332,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1221761784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!28 &1360580651
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 2
+  m_Height: 2
+  m_CompleteImageSize: 20
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 2
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 20
+  _typelessdata: 383838ff383838ff383838ff383838ff383838ff
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> Stashed changes
 --- !u!1 &1405407616
 GameObject:
   m_ObjectHideFlags: 0
@@ -20072,9 +20395,15 @@ GameObject:
   - component: {fileID: 1405407618}
   - component: {fileID: 1405407617}
   - component: {fileID: 1405407620}
+<<<<<<< Updated upstream
   m_Layer: 8
   m_Name: Terrain
   m_TagString: Grass
+=======
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -20089,7 +20418,11 @@ TerrainCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
+<<<<<<< Updated upstream
     m_Bits: 256
+=======
+    m_Bits: 0
+>>>>>>> Stashed changes
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -89039,6 +89372,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583059866}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< Updated upstream
 --- !u!28 &1640457426
 Texture2D:
   m_ObjectHideFlags: 0
@@ -89087,6 +89421,8 @@ Texture2D:
     offset: 0
     size: 0
     path: 
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1686231751
 GameObject:
   m_ObjectHideFlags: 1
@@ -89100,7 +89436,11 @@ GameObject:
   - component: {fileID: 1686231755}
   - component: {fileID: 1686231754}
   - component: {fileID: 1686231753}
+<<<<<<< Updated upstream
   m_Layer: 6
+=======
+  m_Layer: 31
+>>>>>>> Stashed changes
   m_Name: surface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89219,9 +89559,15 @@ GameObject:
   - component: {fileID: 1739268116}
   - component: {fileID: 1739268115}
   - component: {fileID: 1739268114}
+<<<<<<< Updated upstream
   m_Layer: 6
   m_Name: sidewalk
   m_TagString: Concrete
+=======
+  m_Layer: 0
+  m_Name: sidewalk
+  m_TagString: Untagged
+>>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -89251,11 +89597,19 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
+<<<<<<< Updated upstream
     m_Bits: 64
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 256
   m_LayerOverridePriority: 1
+=======
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+>>>>>>> Stashed changes
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -97415,6 +97769,7 @@ MonoBehaviour:
   terrainYStart: 0
   terrainHMRows: 0
   terrainHMCols: 0
+<<<<<<< Updated upstream
 --- !u!1 &1747993655
 GameObject:
   m_ObjectHideFlags: 0
@@ -97543,6 +97898,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1964927191}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1808671198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97600,6 +97957,57 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df32d079362cd4d408b19a6dc52ee968, type: 3}
+<<<<<<< Updated upstream
+=======
+--- !u!28 &1879250292
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 12
+  m_Height: 12
+  m_CompleteImageSize: 760
+  m_MipsStripped: 0
+  m_TextureFormat: 4
+  m_MipCount: 4
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMipmapLimit: 0
+  m_MipmapLimitGroupName: 
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 760
+  _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> Stashed changes
 --- !u!114 &1914780467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97696,6 +98104,7 @@ MonoBehaviour:
   perpDirRotated: {x: -0.0009948725, y: 0, z: -0.9999995}
   markerStartUVY: 0
   customPoints: []
+<<<<<<< Updated upstream
 --- !u!1 &1954894079
 GameObject:
   m_ObjectHideFlags: 0
@@ -97824,6 +98233,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1961091479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97912,7 +98323,10 @@ GameObject:
   - component: {fileID: 1964927191}
   - component: {fileID: 1964927190}
   - component: {fileID: 1964927192}
+<<<<<<< Updated upstream
   - component: {fileID: 1964927193}
+=======
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -97940,7 +98354,11 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
+<<<<<<< Updated upstream
   m_Radius: 0.64
+=======
+  m_Radius: 0.5
+>>>>>>> Stashed changes
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -97961,12 +98379,15 @@ Transform:
   m_Children:
   - {fileID: 1583059867}
   - {fileID: 963194228}
+<<<<<<< Updated upstream
   - {fileID: 1319888110}
   - {fileID: 1747993657}
   - {fileID: 611145312}
   - {fileID: 144100353}
   - {fileID: 25698078}
   - {fileID: 454631182}
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1964927192
@@ -97993,6 +98414,7 @@ MonoBehaviour:
   lookSpeed: 2
   lookXLimit: 45
   canMove: 1
+<<<<<<< Updated upstream
 --- !u!114 &1964927193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98021,6 +98443,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   raycastHeightOffset: 0.01
+=======
+>>>>>>> Stashed changes
 --- !u!43 &2015575464
 Mesh:
   m_ObjectHideFlags: 0
@@ -98198,6 +98622,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cabin
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1050212910998776, guid: c472a7c3f85525f4c98177cf92fa98de, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -98206,6 +98631,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Wood
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 4382890705706664, guid: c472a7c3f85525f4c98177cf92fa98de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -53.6
@@ -98250,10 +98677,13 @@ PrefabInstance:
       propertyPath: m_ProvidesContacts
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 64361824722743508, guid: c472a7c3f85525f4c98177cf92fa98de, type: 3}
       propertyPath: m_IncludeLayers.m_Bits
       value: 128
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -98374,4 +98804,7 @@ SceneRoots:
   - {fileID: 52619513}
   - {fileID: 6678062}
   - {fileID: 1119299967}
+<<<<<<< Updated upstream
   - {fileID: 1287677801}
+=======
+>>>>>>> Stashed changes
