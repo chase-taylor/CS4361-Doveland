@@ -38,5 +38,11 @@ sysinfo.txt
 .Trashes
 Icon?
 ehthumbs.db
+<<<<<<< Updated upstream
 Thumbs.db
+*.log
+=======
+Thumbs.db
+>>>>>>> Stashed changes
+*.log
 *.log

@@ -11,6 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< Updated upstream
 C:/Users/chris/Documents/GitHub/CS4361-Doveland/Welcome to Doveland
 -logFile
 Logs/AssetImportWorker1.log
@@ -18,6 +19,15 @@ Logs/AssetImportWorker1.log
 52352
 Successfully changed project path to: C:/Users/chris/Documents/GitHub/CS4361-Doveland/Welcome to Doveland
 C:/Users/chris/Documents/GitHub/CS4361-Doveland/Welcome to Doveland
+=======
+D:/chris/Documents/CS4361-Doveland-9ec3d90162340a620a6ad55a2ef43371cd58763c/Welcome to Doveland
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60915
+Successfully changed project path to: D:/chris/Documents/CS4361-Doveland-9ec3d90162340a620a6ad55a2ef43371cd58763c/Welcome to Doveland
+D:/chris/Documents/CS4361-Doveland-9ec3d90162340a620a6ad55a2ef43371cd58763c/Welcome to Doveland
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +59,7 @@ C:/Users/chris/Documents/GitHub/CS4361-Doveland/Welcome to Doveland
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [31708] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 497893184 [EditorId] 497893184 [Version] 1048832 [Id] WindowsEditor(7,Chris-Pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [31708] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 497893184 [EditorId] 497893184 [Version] 1048832 [Id] WindowsEditor(7,Chris-Pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -59,6 +70,18 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/chris/Documents/GitHub/CS4361-Doveland/Welcome to Doveland/Assets
+=======
+Player connection [24472] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 3770478635 [EditorId] 3770478635 [Version] 1048832 [Id] WindowsEditor(7,Chris-Pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24472] Host "[IP] 192.168.1.77 [Port] 0 [Flags] 2 [Guid] 3770478635 [EditorId] 3770478635 [Version] 1048832 [Id] WindowsEditor(7,Chris-Pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 955.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/chris/Documents/CS4361-Doveland-9ec3d90162340a620a6ad55a2ef43371cd58763c/Welcome to Doveland/Assets
+>>>>>>> Stashed changes
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,6 +93,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -81,11 +105,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.310 seconds
 Domain Reload Profiling: 829ms
 	BeginReloadAssembly (141ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020060 seconds.
+- Loaded All Assemblies, in  0.653 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 1047ms
+	BeginReloadAssembly (254ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (90ms)
@@ -108,6 +146,30 @@ Domain Reload Profiling: 829ms
 			BeforeProcessingInitializeOnLoad (3ms)
 			ProcessInitializeOnLoadAttributes (159ms)
 			ProcessInitializeOnLoadMethodAttributes (59ms)
+=======
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (313ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +177,13 @@ Domain Reload Profiling: 829ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 - Loaded All Assemblies, in  0.991 seconds
 Refreshing native plugins compatible for Editor in 6.60 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  7.166 seconds
+Refreshing native plugins compatible for Editor in 55.26 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -126,6 +193,7 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream
 - Finished resetting the current domain, in  0.835 seconds
 Domain Reload Profiling: 1819ms
 	BeginReloadAssembly (223ms)
@@ -372,10 +440,57 @@ Memory consumption went from 181.9 MB to 181.1 MB.
 Total: 5.092300 ms (FindLiveObjects: 0.595500 ms CreateObjectMapping: 0.213300 ms MarkObjects: 3.893400 ms  DeleteObjects: 0.388400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+- Finished resetting the current domain, in  2.437 seconds
+Domain Reload Profiling: 9589ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (6805ms)
+		LoadAssemblies (6625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (258ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2168ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (1866ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+database is locked
+Failed to delete database file Library/ShaderCache.db
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 89.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.5 MB). Loaded Objects now: 4764.
+Memory consumption went from 185.4 MB to 183.9 MB.
+Total: 6.402100 ms (FindLiveObjects: 0.581200 ms CreateObjectMapping: 0.170800 ms MarkObjects: 4.938700 ms  DeleteObjects: 0.709400 ms)
+
+>>>>>>> Stashed changes
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+<<<<<<< Updated upstream
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -1129,20 +1244,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+=======
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+>>>>>>> Stashed changes
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 245730.928246 seconds.
   path: Assets/audio/concrete-footsteps-1-6265.mp3
   artifactKey: Guid(0bd5a9c164eae48439650cecb96a0eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/audio/concrete-footsteps-1-6265.mp3 using Guid(0bd5a9c164eae48439650cecb96a0eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ae445a33d166f031cea981803a0807') in 0.162227 seconds
+=======
+  Time since last request: 416790.340126 seconds.
+  path: Assets/indoor-footsteps-6385.mp3
+  artifactKey: Guid(07b13899513ff9044a3b8b509d9926a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/indoor-footsteps-6385.mp3 using Guid(07b13899513ff9044a3b8b509d9926a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b018d38f4a5ac2713b8814dcd5a729') in 0.185573 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 0.000061 seconds.
   path: Assets/audio/going-on-a-forest-road-gravel-and-grass-6404.mp3
   artifactKey: Guid(f42ddf37d642cb348bd3cab4fee25f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1157,6 +1285,37 @@ Received Import Request.
 Start importing Assets/audio/running concrete.mp3 using Guid(9be3a9c791a44cf48ae512d6b216c471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399c80a738843e6c13847b13c3baf843') in 0.019004 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+=======
+  Time since last request: 0.000035 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(8d452d9089086c34ca5deb8d6daefddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(8d452d9089086c34ca5deb8d6daefddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fe22c4a0e02cd12b769a9e4aa5ed4b') in 0.249716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 62.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.9 MB). Loaded Objects now: 4777.
+Memory consumption went from 106.7 MB to 104.8 MB.
+Total: 6.134200 ms (FindLiveObjects: 0.640800 ms CreateObjectMapping: 0.222900 ms MarkObjects: 4.523900 ms  DeleteObjects: 0.745000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> Stashed changes
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
