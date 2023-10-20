@@ -14,17 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    x: 8
-    y: 51
-    width: 2544
-    height: 1333
-=======
     x: -409
     y: 176
     width: 3424
     height: 1381
->>>>>>> Stashed changes
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 6}
