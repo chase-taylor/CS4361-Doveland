@@ -66,6 +66,7 @@ public class FootstepScript : MonoBehaviour
         RaycastHit hit;
 
         Vector3 raycastOrigin = playerTransform.position + Vector3.up * raycastHeightOffset;
+        Debug.DrawRay(raycastOrigin, Vector3.down, Color.green);
 
         if (Physics.Raycast(raycastOrigin, Vector3.down, out hit, 1.5f))
         {
