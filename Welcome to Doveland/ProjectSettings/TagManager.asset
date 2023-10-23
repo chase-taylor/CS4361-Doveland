@@ -9,6 +9,7 @@ TagManager:
   - Roads
   - Wood
   - Concrete
+  - Enemy
   layers:
   - Default
   - TransparentFX
