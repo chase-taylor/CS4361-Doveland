@@ -51,15 +51,18 @@ public class PlayableCharacter : MonoBehaviour
 
         if (isCrouching)
         {
-            runSpeed = 8f;
+            runSpeed = 5f;
+            walkSpeed = 4f;
         }
         else if (isCrawling)
         {
-            runSpeed = 6f;
+            runSpeed = 2f;
+            walkSpeed = 2f;
         }
         else
         {
-            runSpeed = 12f;
+            runSpeed = 6f;
+            walkSpeed = 4f;
         }
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded && !isCrawling && !isCrouching)
@@ -100,13 +103,13 @@ public class PlayableCharacter : MonoBehaviour
                 isCrawling = false;
                 isCrouching = true;
                 characterController.height = crouchHeight;
-                characterController.center = new Vector3(0, crouchHeight / 2, 0);
+                characterController.center = new Vector3(0, crouchHeight, 0);
             }
             else
             {
                 isCrouching = true;
                 characterController.height = crouchHeight;
-                characterController.center = new Vector3(0, crouchHeight / 2, 0);
+                characterController.center = new Vector3(0, crouchHeight, 0);
             }
         }
 
@@ -125,14 +128,14 @@ public class PlayableCharacter : MonoBehaviour
                 isCrouching = false;
                 isCrawling = true;
                 characterController.height = crawlHeight;
-                characterController.center = new Vector3(0, crawlHeight / 2, 0); // Adjust the center
+                characterController.center = new Vector3(0, crawlHeight, 0); // Adjust the center
 
             }
             else
             {
                 isCrawling = true;
                 characterController.height = crawlHeight;
-                characterController.center = new Vector3(0, crawlHeight / 2, 0); // Adjust the center
+                characterController.center = new Vector3(0, crawlHeight, 0); // Adjust the center
             }
         }
     }
