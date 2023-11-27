@@ -40,7 +40,7 @@ public class EnemyWulfvook : MonoBehaviour
             target = defaultPos;
     
         nav.SetDestination(target.position);
-        transform.LookAt(new Vector3(target.position.x,0,target.position.z));
+        transform.LookAt(new Vector3(target.position.x,transform.position.y,target.position.z));
         transform.Rotate(Vector3.up, 90.0f);
     }
 
