@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayableCharacter : MonoBehaviour
 {
     public Camera playerCamera;
-    public float walkSpeed = 6f;
+    public float walkSpeed = 4f;
     public float runSpeed = 12f;
     public float jumpPower = 7f;
     public float gravity = 10f;
@@ -21,6 +21,7 @@ public class PlayableCharacter : MonoBehaviour
 
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
+    public bool hiding = false;
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -58,6 +59,11 @@ public class PlayableCharacter : MonoBehaviour
         {
             runSpeed = 2f;
             walkSpeed = 2f;
+        }
+        else if (hiding)
+        {
+            runSpeed = 0f;
+            walkSpeed = 0f;
         }
         else
         {

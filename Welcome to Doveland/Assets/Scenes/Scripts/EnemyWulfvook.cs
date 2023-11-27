@@ -7,10 +7,12 @@ public class EnemyWulfvook : MonoBehaviour
 {
 
     public Transform target;
+    public Transform home;
     Rigidbody rigid;
     BoxCollider boxCollider;
     NavMeshAgent nav;
     Animator animator;
+    public bool playerHiding = false;
 
     void Awake()
     {
@@ -23,8 +25,18 @@ public class EnemyWulfvook : MonoBehaviour
 
     void Update()
     {
-        nav.SetDestination(target.position);
-        transform.LookAt(target);
+        if (playerHiding == true)
+        {
+            nav.SetDestination(home.position);
+            transform.LookAt(home);
+
+        }
+        else
+        {
+            nav.SetDestination(target.position);
+            transform.LookAt(target);
+        }
+        
         transform.Rotate(Vector3.up, 90.0f);
     }
 
@@ -42,6 +54,16 @@ public class EnemyWulfvook : MonoBehaviour
     void StartCrawlAnimation()
     {
         animator.SetTrigger("Crawl");
+    }
+
+    public void stopChase()
+    {
+        playerHiding = true;
+    }
+
+    public void startChase()
+    {
+        playerHiding = false;
     }
     
 }
