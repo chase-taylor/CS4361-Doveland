@@ -6,13 +6,18 @@ using UnityEngine.AI;
 public class EnemyWulfvook : MonoBehaviour
 {
 
-    public Transform target;
-    public Transform home;
-    Rigidbody rigid;
+    public Transform playerTransform;
+    public GameObject playerObject;
+    public Transform defaultPos;
+    Transform target;
+
     BoxCollider boxCollider;
     NavMeshAgent nav;
     Animator animator;
+    int maxRange = 25;
+    RaycastHit hit;
     public bool playerHiding = false;
+    Rigidbody rigid;
 
     void Awake()
     {
@@ -20,23 +25,22 @@ public class EnemyWulfvook : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
         nav = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
+        target = playerTransform;
     }
 
     void Update()
     {
-        if (playerHiding == true)
-        {
-            nav.SetDestination(home.position);
-            transform.LookAt(home);
-
-        }
+        float dist;
+        if ((dist = Vector3.Distance(playerTransform.position, transform.position))<maxRange&&
+        Physics.Raycast(transform.position, (playerTransform.position - transform.position), out hit, maxRange)&&!playerHiding){
+            if(hit.transform == playerTransform)
+                target = playerTransform;
+        }  
         else
-        {
-            nav.SetDestination(target.position);
-            transform.LookAt(target);
-        }
-        
+            target = defaultPos;
+    
+        nav.SetDestination(target.position);
+        transform.LookAt(new Vector3(target.position.x,0,target.position.z));
         transform.Rotate(Vector3.up, 90.0f);
     }
 
@@ -56,6 +60,21 @@ public class EnemyWulfvook : MonoBehaviour
         animator.SetTrigger("Crawl");
     }
 
+    void OnTriggerEnter(Collider other) {
+        if (other.tag=="NoiseSphere") {
+            playerObject.GetComponent<NoiseSphereScript>().Enter();
+            print("Enter");
+        }
+            
+    }
+
+    void OnTriggerExit(Collider other) {
+        if (other.tag=="NoiseSphere") {
+            playerObject.GetComponent<NoiseSphereScript>().Exit();
+            print("Exit");
+        }
+    }
+            
     public void stopChase()
     {
         playerHiding = true;
