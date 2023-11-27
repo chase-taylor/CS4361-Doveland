@@ -10,6 +10,7 @@ TagManager:
   - Wood
   - Concrete
   - Enemy
+  - player-camera
   layers:
   - Default
   - TransparentFX
