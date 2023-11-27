@@ -16,7 +16,8 @@ public class EnemyWulfvook : MonoBehaviour
     Animator animator;
     int maxRange = 25;
     RaycastHit hit;
-    bool playerHiding = false;
+    public bool playerHiding = false;
+    Rigidbody rigid;
 
     void Awake()
     {
@@ -35,11 +36,11 @@ public class EnemyWulfvook : MonoBehaviour
             if(hit.transform == playerTransform)
                 target = playerTransform;
         }  
-        else if(dist>maxRange+5)
+        else
             target = defaultPos;
     
         nav.SetDestination(target.position);
-        transform.LookAt(target);
+        transform.LookAt(new Vector3(target.position.x,0,target.position.z));
         transform.Rotate(Vector3.up, 90.0f);
     }
 
@@ -72,6 +73,7 @@ public class EnemyWulfvook : MonoBehaviour
             playerObject.GetComponent<NoiseSphereScript>().Exit();
             print("Exit");
         }
+    }
             
     public void stopChase()
     {

@@ -11,7 +11,7 @@ public class DefaultPositionScript : MonoBehaviour
     void Update()
     {
         //default position moves a bit every frame update so the wulfvook wanders
-        transform.position += new Vector3(Random.Range(-5,5)/40f,0,Random.Range(-5,5)/40f);
+        transform.position += new Vector3(Random.Range(-5,5)/100f,0,Random.Range(-5,5)/100f);
     }
 
     void MoveToPlayer(){
