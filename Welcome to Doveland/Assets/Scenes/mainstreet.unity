@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 3
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.25
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,7 +114,7 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.083333336
     manualTileSize: 0
     tileSize: 256
     buildHeightMesh: 0
@@ -143,6 +143,10 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -923,6 +927,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlocker2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1099,6 +1111,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -1353,6 +1373,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlocker2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1494,6 +1522,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1866,6 +1902,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 199220, guid: 035f738ac7ca0934aae975915ce9478f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 417260, guid: 035f738ac7ca0934aae975915ce9478f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1999999
@@ -2050,6 +2090,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreetLamp_Tall_1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2213,6 +2261,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -2295,6 +2351,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -2372,6 +2436,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -2755,6 +2827,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoadBlocker2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -3032,6 +3112,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -3156,6 +3244,10 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -3428,19 +3520,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 178252, guid: 1d96687606641d8448ec351d83deb5a3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1374540373}
-    - targetCorrespondingSourceObject: {fileID: 178252, guid: 1d96687606641d8448ec351d83deb5a3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1374540372}
-    - targetCorrespondingSourceObject: {fileID: 178252, guid: 1d96687606641d8448ec351d83deb5a3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1374540371}
-    - targetCorrespondingSourceObject: {fileID: 178252, guid: 1d96687606641d8448ec351d83deb5a3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1374540370}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d96687606641d8448ec351d83deb5a3, type: 3}
 --- !u!4 &285426494 stripped
 Transform:
@@ -3661,8 +3741,8 @@ GameObject:
   m_Name: ElectricHum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &300323804
 Transform:
@@ -3792,6 +3872,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -3869,6 +3957,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -9931,8 +10027,8 @@ GameObject:
   m_Name: SLT_3_spotlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &335708223
 Transform:
@@ -10146,6 +10242,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -10356,6 +10460,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10462,6 +10574,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -10673,6 +10793,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -10812,6 +10940,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -10996,6 +11132,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -11134,6 +11278,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11304,6 +11456,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -11438,6 +11598,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11459,6 +11627,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -11537,6 +11713,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -11911,9 +12095,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1584221070957710971, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584221070957710971, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3976169496708152357, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_DrawHalo
@@ -11931,6 +12131,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3976169497670997341, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169497670997341, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3976169497670997343, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -11942,6 +12150,14 @@ PrefabInstance:
     - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5876537559373045785, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Lightmapping
@@ -11958,6 +12174,14 @@ PrefabInstance:
     - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8238356789363023062, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_LocalScale.x
@@ -12017,6 +12241,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8238356789363023062, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
   m_PrefabInstance: {fileID: 549942918}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &559461717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 559461718}
+  - component: {fileID: 559461719}
+  m_Layer: 0
+  m_Name: NoiseSphere
+  m_TagString: NoiseSphere
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &559461718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559461717}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2016253469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &559461719
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559461717}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &562858358
 GameObject:
   m_ObjectHideFlags: 0
@@ -12077,6 +12354,14 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -12158,6 +12443,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -12355,6 +12648,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12432,6 +12733,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12511,19 +12820,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 161832, guid: c2a62b72a3237d4468ffd290eacb4dfd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408554646}
-    - targetCorrespondingSourceObject: {fileID: 161832, guid: c2a62b72a3237d4468ffd290eacb4dfd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408554645}
-    - targetCorrespondingSourceObject: {fileID: 161832, guid: c2a62b72a3237d4468ffd290eacb4dfd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408554644}
-    - targetCorrespondingSourceObject: {fileID: 161832, guid: c2a62b72a3237d4468ffd290eacb4dfd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1408554643}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2a62b72a3237d4468ffd290eacb4dfd, type: 3}
 --- !u!1001 &610189879
 PrefabInstance:
@@ -12592,6 +12889,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12671,19 +12976,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 110130, guid: 6fbb792bc9554344fbcde6ac82e48205, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1074576422}
-    - targetCorrespondingSourceObject: {fileID: 110130, guid: 6fbb792bc9554344fbcde6ac82e48205, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1074576421}
-    - targetCorrespondingSourceObject: {fileID: 110130, guid: 6fbb792bc9554344fbcde6ac82e48205, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1074576420}
-    - targetCorrespondingSourceObject: {fileID: 110130, guid: 6fbb792bc9554344fbcde6ac82e48205, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1074576419}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fbb792bc9554344fbcde6ac82e48205, type: 3}
 --- !u!1001 &618341395
 PrefabInstance:
@@ -12696,6 +12989,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -12778,6 +13079,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -12927,54 +13236,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7979483810632986655, guid: a3c449c80e5138946bc1c34f9dd7b0cc, type: 3}
   m_PrefabInstance: {fileID: 632694035}
   m_PrefabAsset: {fileID: 0}
---- !u!28 &637164786
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 2
-  m_Height: 2
-  m_CompleteImageSize: 20
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 2
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 20
-  _typelessdata: 4d4d4dff4d4d4dff4d4d4dff4d4d4dff4d4d4dff
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &649118336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5787938226493339584, guid: 0811362ae53573c47be253aac1dbdd5d, type: 3}
@@ -13114,6 +13375,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13135,6 +13404,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -13213,6 +13490,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_Name
       value: RoadBlocker2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
@@ -13492,6 +13777,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8800462428642535413, guid: d407fac58221628439e93e884e0355c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13548,6 +13837,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
       propertyPath: m_Name
       value: StreetLamp_Tall_7
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13699,6 +13996,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -13838,6 +14143,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13878,6 +14191,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -14181,7 +14502,7 @@ GameObject:
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &770366564
 MeshCollider:
@@ -14713,6 +15034,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14791,6 +15120,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14868,6 +15205,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15085,6 +15430,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15172,54 +15525,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1130151553}
   m_SourcePrefab: {fileID: 100100000, guid: c022b95914e7cb24496428326346cd67, type: 3}
---- !u!28 &896959505
-Texture2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 12
-  m_Height: 12
-  m_CompleteImageSize: 760
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 4
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 760
-  _typelessdata: 0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc0000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc00000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffccffffffcc000000000000000000000000000000000000000000000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f667f7f7f667f7f7f66bfbfbf99bfbfbf997f7f7f667f7f7f6600000000000000007f7f7f667f7f7f66000000000000000000000000000000007f7f7f667f7f7f660000000000000000000000007f7f7f66000000007f7f7f66bfbfbf997f7f7f66000000007f7f7f6600000000bfbfbf99
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!4 &900851406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 428892, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
@@ -15236,6 +15541,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -15552,6 +15865,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -15638,6 +15955,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -15719,6 +16044,14 @@ PrefabInstance:
     - target: {fileID: 126522, guid: 0c33235d8e4ec124b8f0e17c87b30ee1, type: 3}
       propertyPath: m_TagString
       value: Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 126522, guid: 0c33235d8e4ec124b8f0e17c87b30ee1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 126522, guid: 0c33235d8e4ec124b8f0e17c87b30ee1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 197152, guid: 0c33235d8e4ec124b8f0e17c87b30ee1, type: 3}
       propertyPath: m_Name
@@ -15936,6 +16269,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_Name
       value: RoadBlocker2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
@@ -16228,6 +16569,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -16305,6 +16654,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -16445,6 +16802,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -16979,6 +17344,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -17053,6 +17426,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 696059143}
     m_Modifications:
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 172090, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Name
       value: house_stairs (1)
@@ -17263,6 +17640,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreetLamp_Tall_5
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17282,6 +17667,10 @@ PrefabInstance:
     - target: {fileID: 136256, guid: a154eb6d964c0254596a497f1a05c4aa, type: 3}
       propertyPath: m_Name
       value: House3
+      objectReference: {fileID: 0}
+    - target: {fileID: 190284, guid: a154eb6d964c0254596a497f1a05c4aa, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 426340, guid: a154eb6d964c0254596a497f1a05c4aa, type: 3}
       propertyPath: m_LocalScale.x
@@ -17689,13 +18078,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 132062, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 134994, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 134994, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 146760, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 146760, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 401514, guid: fd39af73f562aa04cb405bd0953160cc, type: 3}
       propertyPath: m_LocalScale.x
@@ -17892,6 +18293,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -18198,8 +18607,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300106, guid: 8d44a8bf542ec854ab6a6c818ea10b8a, type: 3}
---- !u!28 &1117543804
-Texture2D:
 --- !u!1 &1130151550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 199646, guid: c022b95914e7cb24496428326346cd67, type: 3}
@@ -18211,48 +18618,6 @@ NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 2
-  m_Width: 10
-  m_Height: 2
-  m_CompleteImageSize: 112
-  m_MipsStripped: 0
-  m_TextureFormat: 4
-  m_MipCount: 4
-  m_IsReadable: 1
-  m_IsPreProcessed: 0
-  m_IgnoreMipmapLimit: 0
-  m_MipmapLimitGroupName: 
-  m_StreamingMipmaps: 0
-  m_StreamingMipmapsPriority: 0
-  m_VTOnly: 0
-  m_AlphaIsTransparency: 0
-  m_ImageCount: 1
-  m_TextureDimension: 2
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 0
-    m_WrapV: 0
-    m_WrapW: 0
-  m_LightmapFormat: 0
-  m_ColorSpace: 1
-  m_PlatformBlob: 
-  image data: 112
-  _typelessdata: ffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffccffffffcc
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
   m_GameObject: {fileID: 1130151550}
   m_Enabled: 1
   m_AgentTypeID: 0
@@ -18341,6 +18706,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -18476,6 +18849,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18554,6 +18935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18575,6 +18964,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -18681,6 +19078,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -18924,6 +19329,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19138,6 +19551,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -19289,9 +19710,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1584221070957710971, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584221070957710971, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169496708152355, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3976169496708152357, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_DrawHalo
@@ -19309,6 +19746,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3976169497670997341, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976169497670997341, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3976169497670997343, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -19320,6 +19765,14 @@ PrefabInstance:
     - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904380416175107781, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5876537559373045785, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Lightmapping
@@ -19336,6 +19789,14 @@ PrefabInstance:
     - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7621046164417175496, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8238356789363023062, guid: 18cd2fc0a780b0e40b1ee8a58822853f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19652,7 +20113,7 @@ GameObject:
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1236120580
 MeshCollider:
@@ -19814,6 +20275,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -19943,19 +20412,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 152580, guid: 786c32f9babc13e4f9631e2fe81100e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3248526}
-    - targetCorrespondingSourceObject: {fileID: 152580, guid: 786c32f9babc13e4f9631e2fe81100e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3248525}
-    - targetCorrespondingSourceObject: {fileID: 152580, guid: 786c32f9babc13e4f9631e2fe81100e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3248524}
-    - targetCorrespondingSourceObject: {fileID: 152580, guid: 786c32f9babc13e4f9631e2fe81100e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3248523}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 786c32f9babc13e4f9631e2fe81100e6, type: 3}
 --- !u!1 &1284048636
 GameObject:
@@ -19971,8 +20428,8 @@ GameObject:
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1284048637
 Transform:
@@ -20063,6 +20520,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -20141,6 +20606,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -20218,6 +20691,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_Name
       value: RoadBlocker2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6148a4dd2f4929045a6bc3673a29ec30, type: 3}
       propertyPath: m_LocalScale.x
@@ -20687,6 +21168,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20886,6 +21375,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21008,6 +21505,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -21148,6 +21653,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21169,6 +21682,10 @@ PrefabInstance:
     - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 140168, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Layer
@@ -21288,6 +21805,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
       propertyPath: m_Name
       value: StreetLamp_Tall_6
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21410,6 +21935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -21484,6 +22017,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1313996123}
     m_Modifications:
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 172090, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Name
       value: house_stairs
@@ -21656,6 +22193,14 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -21841,6 +22386,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -21944,6 +22493,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -22133,6 +22690,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -22249,6 +22810,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
       propertyPath: m_Name
       value: StreetLamp_Tall_3
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22376,6 +22945,14 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -22505,19 +23082,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 159516, guid: 6279a552d0bb02148ada71f07bd78518, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 570421296}
-    - targetCorrespondingSourceObject: {fileID: 159516, guid: 6279a552d0bb02148ada71f07bd78518, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 570421295}
-    - targetCorrespondingSourceObject: {fileID: 159516, guid: 6279a552d0bb02148ada71f07bd78518, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 570421294}
-    - targetCorrespondingSourceObject: {fileID: 159516, guid: 6279a552d0bb02148ada71f07bd78518, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 570421293}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6279a552d0bb02148ada71f07bd78518, type: 3}
 --- !u!1 &1488932740
 GameObject:
@@ -22865,6 +23430,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -23033,6 +23606,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1313996123}
     m_Modifications:
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 172090, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Name
       value: house_stairs (1)
@@ -23106,6 +23683,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -23181,6 +23766,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 489546928}
     m_Modifications:
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 172090, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Name
       value: house_stairs
@@ -23452,7 +24045,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3, y: 2, z: 3}
+  m_Size: {x: 0.5, y: 2, z: 0.5}
   m_Center: {x: 2, y: 2, z: 0}
 --- !u!54 &1578174867
 Rigidbody:
@@ -23518,6 +24111,7 @@ MonoBehaviour:
   playerTransform: {fileID: 2016253469}
   playerObject: {fileID: 2016253465}
   defaultPos: {fileID: 1326922304}
+  playerHiding: 0
 --- !u!82 &1578174872
 AudioSource:
   m_ObjectHideFlags: 0
@@ -23934,6 +24528,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
@@ -24007,6 +24605,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 158132, guid: ed4c136bec1e59d4d852cdbbac63b65b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 183158, guid: ed4c136bec1e59d4d852cdbbac63b65b, type: 3}
       propertyPath: m_Name
       value: House1
@@ -24224,6 +24826,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 109866, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 140168, guid: 92639011d2d4c504e80f68a4f024006f, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -24349,6 +24955,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24370,6 +24984,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -24504,6 +25126,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24688,6 +25318,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24842,6 +25480,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24968,7 +25614,7 @@ GameObject:
   m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1753168075
 Transform:
@@ -25173,6 +25819,14 @@ PrefabInstance:
     - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354078602999656514, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7615220583014043773, guid: 3dca833f14577fc46870b3ffe4a313ea, type: 3}
       propertyPath: m_LocalScale.x
@@ -25477,6 +26131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25628,6 +26290,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25705,6 +26375,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25846,6 +26524,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -26015,6 +26701,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26036,6 +26730,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -26350,6 +27052,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 189916, guid: b3a53a0efb7c50848b26f6eea91284bb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400338, guid: b3a53a0efb7c50848b26f6eea91284bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1
@@ -26496,6 +27202,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26594,6 +27308,14 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -26769,6 +27491,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreetLamp_Tall_2
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26872,6 +27602,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodFence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26941,6 +27679,14 @@ PrefabInstance:
     - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_Name
       value: OldWoodPillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
@@ -27208,6 +27954,14 @@ PrefabInstance:
     - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
       propertyPath: m_Name
       value: OldWoodFence (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848514252216451415, guid: ddae8703de8a63742af7ff389827b4eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28537,7 +29291,7 @@ Transform:
   - {fileID: 1076608126}
   - {fileID: 234654544}
   - {fileID: 296832325}
-  - {fileID: 2076386348}
+  - {fileID: 559461718}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &2016253470
@@ -28552,7 +29306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f64a453d2f068b0498250493d09d76d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noiseSphere: {fileID: 2076386347}
+  noiseSphere: {fileID: 559461717}
   defaultPos: {fileID: 1326922304}
 --- !u!1001 &2016434749
 PrefabInstance:
@@ -28735,6 +29489,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -28816,6 +29578,10 @@ PrefabInstance:
     - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 310873775704038034, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1352427516097028400, guid: e7c16a06f82aeae498a1e2b1b963726e, type: 3}
       propertyPath: m_Materials.Array.data[2]
@@ -29004,70 +29770,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85abc66ee2c921c4f94d78ff0bae4348, type: 3}
---- !u!1 &2057370960
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2057370961}
-  - component: {fileID: 2057370963}
-  - component: {fileID: 2057370962}
-  m_Layer: 0
-  m_Name: wulfvukHome
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2057370961
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057370960}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.04, y: 0.6, z: 8.77}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &2057370962
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057370960}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &2057370963
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057370960}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2095027900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29119,6 +29821,14 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
       propertyPath: m_Name
       value: StreetLamp_Tall_4
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5f762237f251df245951874e04796ecd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29631,6 +30341,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoodPillar (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833846364734809917, guid: 161e784eabf687a4598217971fb9a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3218660897183507818, guid: 161e784eabf687a4598217971fb9a567, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -29819,7 +30537,6 @@ SceneRoots:
   - {fileID: 1273014461}
   - {fileID: 882903618}
   - {fileID: 1483411642}
-  - {fileID: 2057370961}
   - {fileID: 272624709}
   - {fileID: 2016253469}
   - {fileID: 1659587521}
@@ -29829,3 +30546,4 @@ SceneRoots:
   - {fileID: 1050660328}
   - {fileID: 1559933842}
   - {fileID: 913896612}
+  - {fileID: 1326922304}
