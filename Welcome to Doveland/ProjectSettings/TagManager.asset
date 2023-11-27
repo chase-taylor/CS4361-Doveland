@@ -11,6 +11,7 @@ TagManager:
   - Concrete
   - Enemy
   - NoiseSphere
+  - player-camera
   layers:
   - Default
   - TransparentFX

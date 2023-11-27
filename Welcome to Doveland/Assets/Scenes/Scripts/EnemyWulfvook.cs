@@ -10,12 +10,13 @@ public class EnemyWulfvook : MonoBehaviour
     public GameObject playerObject;
     public Transform defaultPos;
     Transform target;
-    Rigidbody rigid;
+
     BoxCollider boxCollider;
     NavMeshAgent nav;
     Animator animator;
     int maxRange = 25;
     RaycastHit hit;
+    bool playerHiding = false;
 
     void Awake()
     {
@@ -30,7 +31,7 @@ public class EnemyWulfvook : MonoBehaviour
     {
         float dist;
         if ((dist = Vector3.Distance(playerTransform.position, transform.position))<maxRange&&
-        Physics.Raycast(transform.position, (playerTransform.position - transform.position), out hit, maxRange)){
+        Physics.Raycast(transform.position, (playerTransform.position - transform.position), out hit, maxRange)&&!playerHiding){
             if(hit.transform == playerTransform)
                 target = playerTransform;
         }  
@@ -72,6 +73,14 @@ public class EnemyWulfvook : MonoBehaviour
             print("Exit");
         }
             
+    public void stopChase()
+    {
+        playerHiding = true;
+    }
+
+    public void startChase()
+    {
+        playerHiding = false;
     }
     
 }
