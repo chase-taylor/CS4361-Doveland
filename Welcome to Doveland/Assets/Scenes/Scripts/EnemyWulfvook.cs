@@ -6,11 +6,16 @@ using UnityEngine.AI;
 public class EnemyWulfvook : MonoBehaviour
 {
 
-    public Transform target;
+    public Transform playerTransform;
+    public GameObject playerObject;
+    public Transform defaultPos;
+    Transform target;
     Rigidbody rigid;
     BoxCollider boxCollider;
     NavMeshAgent nav;
     Animator animator;
+    int maxRange = 25;
+    RaycastHit hit;
 
     void Awake()
     {
@@ -18,11 +23,20 @@ public class EnemyWulfvook : MonoBehaviour
         boxCollider = GetComponent<BoxCollider>();
         nav = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
+        target = playerTransform;
     }
 
     void Update()
     {
+        float dist;
+        if ((dist = Vector3.Distance(playerTransform.position, transform.position))<maxRange&&
+        Physics.Raycast(transform.position, (playerTransform.position - transform.position), out hit, maxRange)){
+            if(hit.transform == playerTransform)
+                target = playerTransform;
+        }  
+        else if(dist>maxRange+5)
+            target = defaultPos;
+    
         nav.SetDestination(target.position);
         transform.LookAt(target);
         transform.Rotate(Vector3.up, 90.0f);
@@ -42,6 +56,22 @@ public class EnemyWulfvook : MonoBehaviour
     void StartCrawlAnimation()
     {
         animator.SetTrigger("Crawl");
+    }
+
+    void OnTriggerEnter(Collider other) {
+        if (other.tag=="NoiseSphere") {
+            playerObject.GetComponent<NoiseSphereScript>().Enter();
+            print("Enter");
+        }
+            
+    }
+
+    void OnTriggerExit(Collider other) {
+        if (other.tag=="NoiseSphere") {
+            playerObject.GetComponent<NoiseSphereScript>().Exit();
+            print("Exit");
+        }
+            
     }
     
 }

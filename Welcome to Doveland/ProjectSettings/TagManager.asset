@@ -10,6 +10,7 @@ TagManager:
   - Wood
   - Concrete
   - Enemy
+  - NoiseSphere
   layers:
   - Default
   - TransparentFX
