@@ -14,7 +14,7 @@ public class DefaultPositionScript : MonoBehaviour
         transform.position += new Vector3(Random.Range(-5,5)/100f,0,Random.Range(-5,5)/100f);
     }
 
-    void MoveToPlayer(){
+    public void MoveToPlayer(){
         transform.position = player.position;
     }
 }
