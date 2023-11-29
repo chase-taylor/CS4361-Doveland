@@ -12,4 +12,7 @@ public class TitleScreenScript : MonoBehaviour
     public void StartButton(){
         SceneManager.LoadScene("mainstreet");
     }
+    public void ExitButton(){
+        Application.Quit();
+    }
 }
