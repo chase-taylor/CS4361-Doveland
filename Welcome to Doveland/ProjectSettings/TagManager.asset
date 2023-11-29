@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - NoiseSphere
   - player-camera
+  - default-pos
   layers:
   - Default
   - TransparentFX

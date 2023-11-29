@@ -6,6 +6,7 @@ public class hidingPlace : MonoBehaviour
 {
     public GameObject hideText, stopHideText;
     public GameObject normalPlayer, hidingPlayer;
+    public GameObject defaultPos;
     public EnemyWulfvook monsterScript;
     public Transform monsterTransform;
     bool interactable, hiding;
