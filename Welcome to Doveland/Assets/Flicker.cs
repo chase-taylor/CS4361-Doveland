@@ -6,6 +6,7 @@ public class Flicker : MonoBehaviour
 {
 
     public Light _Light;
+    public Light spot_Light;
 
     public float MinTime = 1f;
     public float MaxTime = 10f;
@@ -33,6 +34,7 @@ public class Flicker : MonoBehaviour
         if (Timer <= 0)
         {
             _Light.enabled = !_Light.enabled;
+            spot_Light.enabled = !spot_Light.enabled;
             Timer = Random.Range(MinTime, MaxTime);
 
         }

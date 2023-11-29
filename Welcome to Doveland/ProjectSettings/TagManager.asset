@@ -10,6 +10,8 @@ TagManager:
   - Wood
   - Concrete
   - Enemy
+  - NoiseSphere
+  - player-camera
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - Roads
   - Wood
   - Grass
-  - 
+  - HidingSpots
   - 
   - 
   - 

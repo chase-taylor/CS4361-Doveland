@@ -42,6 +42,7 @@ public class FootstepScript : MonoBehaviour
     {
         if (Input.GetKey("w") || Input.GetKey("s") || Input.GetKey("a") || Input.GetKey("d"))
         {
+            gameObject.GetComponent<NoiseSphereScript>().Handle(true,isRunning);
             if (!isRunning)
             {
                 DetectSurface();
@@ -54,6 +55,7 @@ public class FootstepScript : MonoBehaviour
         }
         else
         {
+            gameObject.GetComponent<NoiseSphereScript>().Handle(false,isRunning);
             SetRunningSounds(false);
             SetFootstepSounds(false);
         }

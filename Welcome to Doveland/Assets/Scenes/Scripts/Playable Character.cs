@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayableCharacter : MonoBehaviour
 {
     public Camera playerCamera;
-    public float walkSpeed = 6f;
+    public float walkSpeed = 4f;
     public float runSpeed = 12f;
     public float jumpPower = 7f;
     public float gravity = 10f;
@@ -21,6 +21,7 @@ public class PlayableCharacter : MonoBehaviour
 
     public float lookSpeed = 2f;
     public float lookXLimit = 45f;
+    public bool hiding = false;
 
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
@@ -51,15 +52,23 @@ public class PlayableCharacter : MonoBehaviour
 
         if (isCrouching)
         {
-            runSpeed = 8f;
+            runSpeed = 5f;
+            walkSpeed = 4f;
         }
         else if (isCrawling)
         {
-            runSpeed = 6f;
+            runSpeed = 2f;
+            walkSpeed = 2f;
+        }
+        else if (hiding)
+        {
+            runSpeed = 0f;
+            walkSpeed = 0f;
         }
         else
         {
-            runSpeed = 12f;
+            runSpeed = 6f;
+            walkSpeed = 4f;
         }
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded && !isCrawling && !isCrouching)
@@ -100,13 +109,13 @@ public class PlayableCharacter : MonoBehaviour
                 isCrawling = false;
                 isCrouching = true;
                 characterController.height = crouchHeight;
-                characterController.center = new Vector3(0, crouchHeight / 2, 0);
+                characterController.center = new Vector3(0, crouchHeight, 0);
             }
             else
             {
                 isCrouching = true;
                 characterController.height = crouchHeight;
-                characterController.center = new Vector3(0, crouchHeight / 2, 0);
+                characterController.center = new Vector3(0, crouchHeight, 0);
             }
         }
 
@@ -125,14 +134,14 @@ public class PlayableCharacter : MonoBehaviour
                 isCrouching = false;
                 isCrawling = true;
                 characterController.height = crawlHeight;
-                characterController.center = new Vector3(0, crawlHeight / 2, 0); // Adjust the center
+                characterController.center = new Vector3(0, crawlHeight, 0); // Adjust the center
 
             }
             else
             {
                 isCrawling = true;
                 characterController.height = crawlHeight;
-                characterController.center = new Vector3(0, crawlHeight / 2, 0); // Adjust the center
+                characterController.center = new Vector3(0, crawlHeight, 0); // Adjust the center
             }
         }
     }
