@@ -22,7 +22,7 @@ public class NoiseSphereScript : MonoBehaviour
     public void Handle(bool isMoving, bool isRunning) {
         if (isMoving){
             Enable();
-            radius = isRunning ? 60 : 40;
+            radius = isRunning ? 80 : 40;
             noiseSphere.transform.localScale = new Vector3(radius,radius,radius);
         } else Disable();
     }
