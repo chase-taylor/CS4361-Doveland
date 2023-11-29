@@ -10,6 +10,7 @@ public class EnemyWulfvook : MonoBehaviour
     public Transform playerTransform;
     public GameObject playerObject;
     public Transform defaultPos;
+    public AudioSource deathSound;
     Transform target;
 
     BoxCollider boxCollider;
@@ -32,7 +33,10 @@ public class EnemyWulfvook : MonoBehaviour
     void Update()
     {
         float dist = Vector3.Distance(playerTransform.position, transform.position);
-        if (dist < 1) SceneManager.LoadScene("gameover");
+        if (dist < 2){
+            if (!deathSound.isPlaying) deathSound.Play();
+            StartCoroutine(death(0.5f));
+        }
         if (dist<maxRange && Physics.Raycast(transform.position, (playerTransform.position - transform.position), 
             out hit, maxRange)&&!playerHiding){
             if(hit.transform == playerTransform)
@@ -44,6 +48,11 @@ public class EnemyWulfvook : MonoBehaviour
         nav.SetDestination(target.position);
         transform.LookAt(new Vector3(target.position.x,transform.position.y,target.position.z));
         transform.Rotate(Vector3.up, 90.0f);
+    }
+
+    IEnumerator death(float seconds){
+        yield return new WaitForSeconds(seconds);
+        SceneManager.LoadScene("gameover");
     }
 
     void FreezeVelocity()
