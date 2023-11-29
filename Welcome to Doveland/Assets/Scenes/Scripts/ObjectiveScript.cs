@@ -8,9 +8,11 @@ public class ObjectiveScript : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI notesText;
     public TMPro.TextMeshProUGUI timerText;
+    public GameObject wulfvook;
     public float timer = 360.0f;
     float maxTime;
     int notes = 0;
+    int lastmins = 5;
 
     void Start()
     {
@@ -28,6 +30,8 @@ public class ObjectiveScript : MonoBehaviour
 
     public void AddNote(){
         notes++;
+        wulfvook.GetComponent<UnityEngine.AI.NavMeshAgent>().speed += 0.2f;
+        print("Wulfvook speed: " + wulfvook.GetComponent<UnityEngine.AI.NavMeshAgent>().speed.ToString());
         UpdateNotes();
     }
 
@@ -36,8 +40,15 @@ public class ObjectiveScript : MonoBehaviour
         if (timer <= 10){ //show timer in green with decimal points if <= 10 seconds remain
             timerText.color = Color.green;
             timerText.text = timer.ToString("F2");
-        } else //else show in minutes:seconds format
-            timerText.text = ((int)timer/60).ToString() + ":" + ((int)timer%60).ToString("D2");
+        } else {//else show in minutes:seconds format
+            int mins = (int)timer/60;
+            timerText.text = mins.ToString() + ":" + ((int)timer%60).ToString("D2");
+            if (mins<lastmins){
+                lastmins=mins;
+                wulfvook.GetComponent<UnityEngine.AI.NavMeshAgent>().speed += 0.2f;
+                print("Wulfvook speed: " + wulfvook.GetComponent<UnityEngine.AI.NavMeshAgent>().speed.ToString());
+            }
+        }
         if (timer<=0) SceneManager.LoadScene("victoryscreen");
     }
 

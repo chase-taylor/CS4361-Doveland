@@ -33,7 +33,7 @@ public class EnemyWulfvook : MonoBehaviour
     void Update()
     {
         float dist = Vector3.Distance(playerTransform.position, transform.position);
-        if (dist < 2){
+        if (dist < 1){
             if (!deathSound.isPlaying) deathSound.Play();
             StartCoroutine(death(0.5f));
         }

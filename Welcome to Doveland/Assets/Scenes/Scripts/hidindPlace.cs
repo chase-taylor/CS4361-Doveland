@@ -6,6 +6,7 @@ public class hidingPlace : MonoBehaviour
 {
     public GameObject hideText, stopHideText;
     public GameObject normalPlayer, hidingPlayer;
+    public GameObject defaultPos;
     public EnemyWulfvook monsterScript;
     public Transform monsterTransform;
     bool interactable, hiding;
@@ -45,6 +46,7 @@ public class hidingPlace : MonoBehaviour
             {
                 hideText.SetActive(false);
                 hidingPlayer.SetActive(true);
+                //defaultPos.GetComponent<DefaultPositionScript>().ResetPosition();
                 float distance = Vector3.Distance(monsterTransform.position, normalPlayer.transform.position);
                 if(distance > loseDistance)
                 {
