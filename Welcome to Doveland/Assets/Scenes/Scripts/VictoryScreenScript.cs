@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameOverScript : MonoBehaviour
+public class VictoryScreenScript : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI notesText;
-    public TMPro.TextMeshProUGUI timerText;
+    public TMPro.TextMeshProUGUI objectiveText;
     int notes = 0;
     int timer = 0;
     public int maxTime = 360;
@@ -22,8 +20,7 @@ public class GameOverScript : MonoBehaviour
             timer = PlayerPrefs.GetInt("timer");
         }
         timer = maxTime - timer;
-        notesText.text = notes.ToString() + "/6 Notes Collected";
-        timerText.text = $"Survived for {timer/60:0}:{timer%60:00}";
+        objectiveText.text = $"You collected {notes}/6 notes in {timer/60:0}:{timer%60:00}";
     }
 
     public void RestartButton(){
@@ -34,3 +31,4 @@ public class GameOverScript : MonoBehaviour
         SceneManager.LoadScene("mainmenu");
     }
 }
+
