@@ -26,7 +26,7 @@ public class ObjectiveScript : MonoBehaviour
         UpdateTimer();
     }
 
-    void AddNote(){
+    public void AddNote(){
         notes++;
         UpdateNotes();
     }
