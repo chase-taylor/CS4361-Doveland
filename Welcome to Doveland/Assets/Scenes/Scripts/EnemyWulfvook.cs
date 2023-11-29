@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyWulfvook : MonoBehaviour
 {
@@ -30,9 +31,10 @@ public class EnemyWulfvook : MonoBehaviour
 
     void Update()
     {
-        float dist;
-        if ((dist = Vector3.Distance(playerTransform.position, transform.position))<maxRange&&
-        Physics.Raycast(transform.position, (playerTransform.position - transform.position), out hit, maxRange)&&!playerHiding){
+        float dist = Vector3.Distance(playerTransform.position, transform.position);
+        if (dist < 1) SceneManager.LoadScene("gameover");
+        if (dist<maxRange && Physics.Raycast(transform.position, (playerTransform.position - transform.position), 
+            out hit, maxRange)&&!playerHiding){
             if(hit.transform == playerTransform)
                 target = playerTransform;
         }  
