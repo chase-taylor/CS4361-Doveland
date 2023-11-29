@@ -55,6 +55,11 @@ public class ObjectiveScript : MonoBehaviour
     private void UpdateNotes(){
         PlayerPrefs.SetInt("notes", notes);
         notesText.text = notes.ToString() + " / 6 Notes";
-        if (notes>=6) SceneManager.LoadScene("victoryscreen");
+        if (notes>=6) StartCoroutine(notesVictory(0.5f));
+    }
+
+    IEnumerator notesVictory(float seconds){
+        yield return new WaitForSeconds(seconds);
+        SceneManager.LoadScene("victoryscreen");
     }
 }

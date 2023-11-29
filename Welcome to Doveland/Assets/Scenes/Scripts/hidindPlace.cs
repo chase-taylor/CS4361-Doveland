@@ -46,7 +46,6 @@ public class hidingPlace : MonoBehaviour
             {
                 hideText.SetActive(false);
                 hidingPlayer.SetActive(true);
-                //defaultPos.GetComponent<DefaultPositionScript>().ResetPosition();
                 float distance = Vector3.Distance(monsterTransform.position, normalPlayer.transform.position);
                 if(distance > loseDistance)
                 {
